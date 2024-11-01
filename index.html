@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Queue</title>
+</head>
+<body>
+    <div class="header">
+        Hands-on Project 7-4
+    </div>
+    
+    <div class="container">
+        <div class="input-section">
+            <div>
+                <label for="customer">Customer</label>
+                <input type="text" id="customer">
+            </div>
+            
+            <div class="button-group">
+                <button id="js-add">add</button>
+                <button id="js-search">search</button>
+                <button id="js-remove">remove</button>
+            </div>
+        </div>
+
+        <div class="status-message">
+            
+        </div>
+
+        <div class="customer-list">
+            <div class="list-header">
+                <h3>Customer List</h3>
+                <button class="remove-btn">Remove Top Customer</button>
+            </div>
+            
+            <ul class="queue-list"></ul>
+        </div>
+        <div class="error-Msg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
